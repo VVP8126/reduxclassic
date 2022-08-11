@@ -2,6 +2,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Classic redux example
+// Application uses 2 variants of work with async-function:
+// 1) lib redux-thunk (page ASYNC) - see commented line 27 in file store.js (uncomment for use)
+// 2) lib saga - activated (page SAGA in web browser)
 
 ## Available Scripts
 In the project directory, you can run:

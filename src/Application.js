@@ -5,6 +5,10 @@ import Page404 from './page/Page404';
 import Layout from './components/layout/Layout';
 import paths from './paths/paths.js';
 
+// Application uses 2 variants of work with async-function:
+// 1) lib redux-thunk (page ASYNC) - see commented line 27 in file store.js (uncomment for use)
+// 2) lib saga - activated (page SAGA in web browser)
+
 function Application() {
   return (
     <BrowserRouter>
